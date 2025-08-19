@@ -1,0 +1,10 @@
+@font-face {
+  font-family: Brush;
+  src: url("../assets/fonts/CaveatBrush-Regular.ttf");
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-brush: "Brush", sans-serif;
+}
